@@ -1,0 +1,73 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    border: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background: url("wallpaper.jpg")no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    background: rgba(10, 13, 19, 0.616);
+    border: solid rgba(255, 255, 255, 0.05) 1px;
+    width: 270px;
+    height: 90%;
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(18px);
+}
+
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.points span{
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #09A5DB;
+    margin-right: 1px;
+    display: inline-block;
+}
+
+.points span:nth-child(2){
+    background: #F41C67;
+}
+.points span:nth-child(3){
+    background: #FD582F;
+}
+
+.toglebtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: solid rgba(255, 255, 255, 0.02) 1px;
+}
+
+.toglebtn span[
+    
+]
